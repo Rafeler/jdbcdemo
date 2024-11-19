@@ -81,7 +81,7 @@ public class JDBCdemo {
             System.out.println("Anzahl der aktualisierten Datensätze: " + rowsAffected);
         } catch (SQLException e) {
             System.out.println("Fehler in der SQL UPDATE Statement: " + e.getMessage());
-        }
+        } //
     }
 
     public static void deleteCourseDemo(int courseId) {
